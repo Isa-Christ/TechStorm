@@ -23,7 +23,8 @@ Bienvenue dans le projet TechStorm, notre thème WordPress pour le TP3 ! Ce READ
        - cd TechStorm-Project
 
 3. **Importation du thème** :
-- Copie le dossier `techstorm` dans `wp-content/themes/` de ton site Local.
+- Copie le dossier `app/public/wp-content/themes/theme-techstorm` du dépôt et colle dans `app/public/wp-content/themes/` de ton site Local.
+- lance ton site dans le navigateur et cliquant sur start dans Local by flywheel
 - Active le thème dans **Apparence > Thèmes** dans l'admin WordPress.
 4. **Installation de WooCommerce** :
 - Dans l'admin WP, va à **Extensions > Ajouter**, recherche "WooCommerce", installe et active-le.
@@ -46,12 +47,6 @@ Bienvenue dans le projet TechStorm, notre thème WordPress pour le TP3 ! Ce READ
 - **Mise à jour** :
 - Tire les dernières modifications : `git pull origin main` avant de commencer.
 
-
-## Accès au site partagé
-- **Option Flywheel (recommandé)** :
-- Le site est pushé sur Flywheel : [URL, ex. techstorm-dev.flywheelsites.com].
-- Tu recevras un email d'invitation pour accéder à l'admin et tester WooCommerce.
-- **Local uniquement** : Si pas de Flywheel, partage ton export (zip + .sql) via le dépôt.
 
 ## Bonnes pratiques
 - Teste localement avant push.
