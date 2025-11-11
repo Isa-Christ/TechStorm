@@ -17,10 +17,7 @@ Bienvenue dans le projet TechStorm, notre thème WordPress pour le TP3 ! Ce READ
 1. **Installation de Local by Flywheel** :
    - Téléchargez et installez Local WP.
    - Créez un nouveau site local (nom : `techstorm-local`, port par défaut).
-2. **Clonage du dépôt** :
-   - Ouvre un terminal et exécute :
-       - git clone https://github.com/votre-utilisateur/TechStorm-Project.git
-       - cd TechStorm-Project
+2. **Clonage du dépôt**
 
 3. **Importation du thème** :
 - Copie le dossier `app/public/wp-content/themes/theme-techstorm` du dépôt et colle dans `app/public/wp-content/themes/` de ton site Local.
