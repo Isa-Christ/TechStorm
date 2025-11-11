@@ -1,7 +1,10 @@
 <?php
 /**
-*Template pour le catalogue
-*/
+ * Template Name: Catalogue
+ * Template Post Type: page
+ *
+ * Template pour le catalogue
+ */
 get_header();
 ?>
 
