@@ -1,0 +1,35 @@
+# Fichiers de configuration sensibles
+config.php
+wp-config.php
+
+# Base de données
+*.sql
+*.sqlite
+*.db
+
+# Uploads et cache
+uploads/*
+!uploads/.gitkeep
+cache/*
+!cache/.gitkeep
+
+# Logs
+*.log
+logs/*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+
+# Environnement PHP
+vendor/
+
+# Fichiers temporaires
+tmp/*
+temp/*
