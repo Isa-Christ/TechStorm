@@ -1,0 +1,50 @@
+/*
+Theme Name: TechStorm
+Theme URI: http://techstorm.local
+Author: Groupe1
+Author URI: http://techstorm.com
+Description: Thème e-commerce futuriste pour TechStorm avec WooCommerce
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: techstorm
+Tags: e-commerce, modern, woocommerce, tech
+*/
+
+/* === DÉBOGAGE === */
+body {
+    background: #0a0a0b !important;
+}
+
+main {
+    background: rgba(255, 0, 0, 0.1) !important; /* Fond rouge transparent pour voir le main */
+    min-height: 1000px !important;
+}
+
+.products-section {
+    background: rgba(0, 255, 0, 0.1) !important; /* Fond vert transparent */
+    padding: 120px 20px !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    background: rgba(0, 0, 255, 0.1) !important; /* Fond bleu transparent */
+}
+
+.products-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 50px !important;
+}
+
+.product-card {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
